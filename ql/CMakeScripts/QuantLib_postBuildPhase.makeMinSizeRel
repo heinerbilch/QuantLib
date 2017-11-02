@@ -7,4 +7,4 @@ all: \
 
 QuantLib_buildpart_0: 
 	echo "Creating symlinks"
-	/usr/local/Cellar/cmake/3.9.4/bin/cmake -E cmake_symlink_library /Users/heiner/git/QuantLib/ql/MinSizeRel/libQuantLib.dylib /Users/heiner/git/QuantLib/ql/MinSizeRel/libQuantLib.dylib /Users/heiner/git/QuantLib/ql/MinSizeRel/libQuantLib.dylib
+	/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_symlink_library /Users/heiner/git/QuantLib/ql/MinSizeRel/libQuantLib.dylib /Users/heiner/git/QuantLib/ql/MinSizeRel/libQuantLib.dylib /Users/heiner/git/QuantLib/ql/MinSizeRel/libQuantLib.dylib
