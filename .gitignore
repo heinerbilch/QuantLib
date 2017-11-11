@@ -17,6 +17,7 @@ quantlib.elc
 quantlib.pc
 QuantLib.spec
 CMakeCache.txt
+CMakeScripts
 Quantlib.xcodeproj
 Docs/.time-stamp
 Docs/.time-stamp-html
