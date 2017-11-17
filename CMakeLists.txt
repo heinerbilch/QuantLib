@@ -14,10 +14,10 @@ cmake_policy(SET CMP0042 NEW)
 
 # Switch off the type conversion warning in Clang. Note: the warning should be fixed in the code.
 #if (CMAKE_C_COMPILER_ID STREQUAL "Clang")
-    set( CMAKE_CXX_FLAGS  "-Wno-conversion" )
+#    set( CMAKE_CXX_FLAGS  "-Wno-conversion" )
 #endif()
 add_compile_options(-Wno-conversion)
-message(STATUS, "CXXFLAGS: ${CMAKE_CXX_FLAGS}")
+
 add_subdirectory(Examples)
 add_subdirectory(ql)
 
