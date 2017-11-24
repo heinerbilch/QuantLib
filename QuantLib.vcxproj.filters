@@ -2628,6 +2628,9 @@
     <ClInclude Include="ql\time\calendars\bespokecalendar.hpp">
       <Filter>time\calendars</Filter>
     </ClInclude>
+    <ClInclude Include="ql\time\calendars\botswana.hpp">
+      <Filter>time\calendars</Filter>
+    </ClInclude>
     <ClInclude Include="ql\time\calendars\brazil.hpp">
       <Filter>time\calendars</Filter>
     </ClInclude>
@@ -3120,6 +3123,9 @@
     <ClInclude Include="ql\experimental\credit\integralntdengine.hpp">
       <Filter>experimental\credit</Filter>
     </ClInclude>
+    <ClInclude Include="ql\experimental\credit\interpolatedaffinehazardratecurve.hpp">
+      <Filter>experimental\credit</Filter>
+    </ClInclude>
     <ClInclude Include="ql\experimental\credit\issuer.hpp">
       <Filter>experimental\credit</Filter>
     </ClInclude>
@@ -3133,6 +3139,9 @@
       <Filter>experimental\credit</Filter>
     </ClInclude>
     <ClInclude Include="ql\experimental\credit\nthtodefault.hpp">
+      <Filter>experimental\credit</Filter>
+    </ClInclude>
+    <ClInclude Include="ql\experimental\credit\onefactoraffinesurvival.hpp">
       <Filter>experimental\credit</Filter>
     </ClInclude>
     <ClInclude Include="ql\experimental\credit\onefactorcopula.hpp">
@@ -5584,6 +5593,9 @@
       <Filter>time\calendars</Filter>
     </ClCompile>
     <ClCompile Include="ql\time\calendars\bespokecalendar.cpp">
+      <Filter>time\calendars</Filter>
+    </ClCompile>
+    <ClCompile Include="ql\time\calendars\botswana.cpp">
       <Filter>time\calendars</Filter>
     </ClCompile>
     <ClCompile Include="ql\time\calendars\brazil.cpp">
